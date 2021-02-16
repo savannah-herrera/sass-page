@@ -1,0 +1,34 @@
+$brandcolor: #E7C8DD;
+$ctacolor: #C8E7D2;
+
+h1,h2 {
+    color: $brandcolor;
+}
+
+.call-to-action {
+    background-color: $ctacolor;
+    color: white;
+    border: $ctacolor;
+}
+
+@mixin horizontal-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+    li {
+      display: inline-block;
+      margin: {
+        left: -2px;
+        right: 2em;
+      }
+    }
+  }
+  
+  nav ul {
+    @include horizontal-list;
+  }
+
+  #main-nav{
+    @include horizontal-list;
+}

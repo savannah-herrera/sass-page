@@ -1,0 +1,25 @@
+h1, h2 {
+  color: #E7C8DD; }
+
+.call-to-action {
+  background-color: #C8E7D2;
+  color: white;
+  border: #C8E7D2; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    margin-left: -2px;
+    margin-right: 2em; }
+
+#main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  #main-nav li {
+    display: inline-block;
+    margin-left: -2px;
+    margin-right: 2em; }
